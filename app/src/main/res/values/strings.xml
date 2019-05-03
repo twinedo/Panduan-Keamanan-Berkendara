@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Panduan Keamanan Berkendara</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Beranda</item>
+        <item>Bantuan</item>
+        <item>Tentang</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_bantuan</item>
+        <item>@drawable/ic_tentang</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string-array name="namaAlat">
+        <item>Dokumen</item>
+        <item>GPS</item>
+        <item>Helm</item>
+        <item>Jaket</item>
+        <item>Jas Hujan</item>
+        <item>Kunci Pas</item>
+        <item>Masker</item>
+        <item>Obat</item>
+        <item>Protektor</item>
+        <item>Sarung Tangan</item>
+    </string-array>
+
+    <string-array name="detailAlat">
+        <item>Jangan lupa untuk membawa dokumen kelengkapan berkendara, seperti identitas atau KTP, SIM, dan STNK.</item>
+        <item>Dewasa ini peta digital atau GPS sudah sangat mudah digunakan, bawalah peta digital atau GPS karena selain mudah dibawa, GPS juga sangat membantu riders saat riding ketika tidak tau arah.</item>
+        <item>Helm dibagi menjadi dua, yaitu Helm Fullface dan Halfface. Keduanya pasti memiliki standar keamanan tergantung merk. Sebagai patokan paling aman, pilihlah helm yang mempunyai label SNI.
+        Faktor nyaman menjadi sangat penting saat menjadi helm. Pilihlah helm yang nyaman ketika anda gunakan agar wajah dan kepala tidak mudah pegal saat berkendara. Merk juga menentukan kualitas tapi nyaman adalah factor utama.
+        Gunakanlah helm yang menggunakan Double visor (kaca anti silau) bila mata anda tidak kuat akan cahaya yang silau. Atau sebagai penggantinya gunakanlah kaca mata.</item>
+        <item>Jaket yang digunakan untuk riding umumnya tidak jauh berbeda dengan jaket biasa. Namun jaket untuk riding biasanya tahan air dan berbahan lebih tebal, guna melindungi badan dari angin dan dingin. Pilihlah jaket berbahan tebal namun tetap mempunyai sirkulasi udara yang cukup agar badan tidak mudah merasakan panas dan gerah.</item>
+        <item>Jangan lupa membawa jas hujan, karena saat perjalanan cuaca tidak bisa diprediksi. Dalam memilih jas hujan pilihlah jas hujan baju bukan jubbah. Karena demi keamanan dan kenyamanan. Pilih jas hujan yang sesuai dengan ukuran anda agar tidak sempit dan mudah sobek.</item>
+        <item>Sebagian besar motor memiliki baut dan mur, tidak ada salahnya membawa kunci serbaguna selayaknya obeng, kunci pas, dan kunci L pada bagasi motor anda.</item>
+        <item>Masker sebagai penutup wajah dari debu dan kotoran, pilihlah masker yang sesuai dengan kenyamanan anda, menutupi wajah maksimal dari debu.</item>
+        <item>Saat riding hal yang tidak diinginkan sangat mungkin terjadi. Obat – obatan pertolongan pertama sangat penting dibawa.</item>
+        <item>Protektor atau pelindung juga komponen yang sangat penting bagi pengendara guna menghindari benturan langsung jika hal yang tidak diinginkan terjadi. Protector meliputi lutut, siku, kaki dan tangan.Pilih protector sesuai dengan ukuran lutut , siku, tangan, dan kaki agar tidak longgar dan juga tidak sempit. Pilih protector berbahan tebal agar kuat menahan beban tubuh saat terjadi benturan.</item>
+        <item>Pilih sarung tangan yang full menutupi ujung jari hingga lengan, guna menghindari hal yang tidak diinginkan, dan pastikan ukurannya sesuai dengan tangan anda.</item>
+    </string-array>
+
+    <string-array name="namaSbl">
+        <item>Berdoa</item>
+        <item>Cek Ban</item>
+        <item>Cek Mesin</item>
+        <item>Cek Fisik</item>
+        <item>Cek Penerangan</item>
+        <item>Map</item>
+    </string-array>
+
+    <string-array name="detailSbl">
+        <item>Jangan lupa untuk berdoa kepada Tuhan meminta kelancaran, kemudahan dan keselamatan saat riding.</item>
+        <item>Ban merupakan faktor penting pada motor yang harus di cek. Dalam memilih ban, gunakanlah ban yang sesuai dengan profil velk atau rims. Tidak terlalu lebar dan tidak terlalu tinggi. Harus pas dan ideal guna menciptakan handling yang maksimal. Pada tekanan angina juga disarankan agar selalu pas. Tidak kempes dan tidak terlalu kencang. Agar menciptakan bantingan yang nyaman.</item>
+        <item>Ini adalah tindakan persiapan paling penting, memastikan kondisi mesin prima adalah kunci keamanan dan keselamatan berkendara anda. Pastikan kondisi mesin prima dan oli cukup agar mesin tidak mudah panas saat berkendara jauh dan dalam kondisi macet. Pengecekan kampas rem juga sangat penting meliputi minyak rem dan kampas sangat berperan penting pada keselamatan berkendara</item>
+        <item>Sebelum berkendara, kondisi fisik rider adalah hal terpenting. Tidak diperkenankan menjalani riding atau berkendara saat kondisi badan sedang tidak fit dan tidak prima. Kesiapan fisik dan mental sangat berpengaruh bagi keselamatan dan kenyamanan riding.</item>
+        <item>Lampu adalah fitur wajib saat berkendara, karena riding saat malam, cuaca berkabut dan berasap sangat membutuhkan lampu. Tidak hanya itu, fitur lain seperti lampu rem, sign lamp dan horn juga sangat perlu dalam riding.</item>
+        <item>Sebelum berkendara, hal terpenting adalah mengetahui kemana arah tujuan, agar tidak tersesat ke tempat lain. Maka pelajarilah terlebih dahulu medan dan arah tujuan.</item>
+    </string-array>
+
+    <string-array name="namaSaatBk">
+        <item>Pahami Rambu</item>
+        <item>Hargai Pengguna Jalan</item>
+        <item>Istirahat</item>
+    </string-array>
+
+    <string-array name="detailSaatBk">
+        <item>Memahami rambu lalu lintas adalah hal yang mutlak, jangan sampai melanggar rambu lalu lintas. Karena melanggar adalah cikal bakal dari terjadinya kelalaian dan kecelakaan. </item>
+        <item>Dalam berkendara, etika berkendara dijunjung tinggi bagi sesama pengguna jalan. Saling menghormati hak pengendara lain dan pejalan kaki.</item>
+        <item>Saat berkendara jarak jauh, faktor lelah dapat membahayakan diri sendiri dan pengendara lain. Maka ketika lelah beristirahatlah dan jangan memaksakan karena akan sangat berbahaya anda dan orang lain.</item>
+    </string-array>
+</resources>

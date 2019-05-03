@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.pkb"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".peralatan.PeralatanActivity"
+            android:label="Daftar Peralatan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".peralatan.PeralatanDetail"
+            android:label="Detail Peralatan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".peralatan.PeralatanActivity" />
+        </activity>
+        <activity
+            android:name=".sebelum.SebelumActivity"
+            android:label="Persiapan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".sebelum.SebelumDetail"
+            android:label="Detail Persiapan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".sebelum.SebelumActivity" />
+        </activity>
+        <activity
+            android:name=".saat.SaatBkActivity"
+            android:label="Saat Berkendara">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".saat.SaatBkDetail"
+            android:label="Saat Berkendara" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".saat.SaatBkActivity" />
+    </application>
+
+</manifest>
