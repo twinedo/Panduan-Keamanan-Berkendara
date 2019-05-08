@@ -19,21 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".peralatan.PeralatanActivity" />
-        <activity android:name=".peralatan.PeralatanDetail" />
+        <activity android:name=".perlengkapan.PerlengkapanActivity" />
+        <activity android:name=".perlengkapan.PerlengkapanDetail" />
         <activity android:name=".sebelum.SebelumActivity" />
         <activity android:name=".sebelum.SebelumDetail" />
         <activity android:name=".saat.SaatBkActivity" />
         <activity android:name=".saat.SaatBkDetail" />
-        <provider
-            android:name="android.support.v4.content.FileProvider"
-            android:authorities="android.getqardio.com.gmslocationtest"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths"/>
-        </provider>
     </application>
 
 </manifest>

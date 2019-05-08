@@ -116,7 +116,7 @@
                         android:layout_height="78dp"
                         android:layout_gravity="center"
                         android:layout_marginBottom="20dp"
-                        android:src="@drawable/peralatan" />
+                        android:src="@drawable/perlengkapan" />
                 </LinearLayout>
 
 

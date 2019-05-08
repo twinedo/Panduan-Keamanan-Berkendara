@@ -9,17 +9,13 @@ import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
-import android.text.Html;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
 import android.widget.PopupMenu;
-import android.widget.TextView;
 
-import com.android.pkbv2.peralatan.PeralatanActivity;
+import com.android.pkbv2.perlengkapan.PerlengkapanActivity;
 import com.android.pkbv2.saat.SaatBkActivity;
 import com.android.pkbv2.sebelum.SebelumActivity;
 
@@ -55,7 +51,7 @@ public class BerandaActivity extends AppCompatActivity {
         cardView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1 = new Intent(v.getContext(), PeralatanActivity.class);
+                Intent intent1 = new Intent(v.getContext(), PerlengkapanActivity.class);
                 startActivity(intent1);
             }
         });

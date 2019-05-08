@@ -33,7 +33,7 @@
             android:alpha="0.75"
             android:fontFamily="@font/droid_sans_bold"
             android:gravity="center"
-            android:text="Perlengkapan"
+            android:text="Saat Berkendara"
             android:textColor="#FFF"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
