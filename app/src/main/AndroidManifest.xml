@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="com.android.pkbv2">
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    package="com.pkbv2">
 
     <application
         android:allowBackup="true"
@@ -42,7 +39,5 @@
         <activity android:name=".saat.SaatBkDetail"
             android:configChanges="orientation"
             android:screenOrientation="portrait"/>
-
     </application>
-    <dist:module dist:instant="true"/>
 </manifest>
