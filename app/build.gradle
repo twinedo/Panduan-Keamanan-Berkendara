@@ -9,7 +9,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.android.pkbv2"
+        applicationId "com.pkbv2"
         minSdkVersion 22
         targetSdkVersion 28
         versionCode 2
