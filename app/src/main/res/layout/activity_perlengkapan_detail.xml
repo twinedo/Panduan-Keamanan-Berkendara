@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context="com.android.pkbv2.perlengkapan.PerlengkapanDetail">
+    tools:context="com.pkbv2.perlengkapan.PerlengkapanDetail">
 
 
     <android.support.constraint.ConstraintLayout

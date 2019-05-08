@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.android.pkbv2.perlengkapan.PerlengkapanActivity"
+    tools:context="com.pkbv2.perlengkapan.PerlengkapanActivity"
     android:background="@color/bg_primary">
 
     <android.support.constraint.ConstraintLayout
