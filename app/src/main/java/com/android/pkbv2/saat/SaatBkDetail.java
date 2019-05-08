@@ -3,6 +3,7 @@ package com.android.pkbv2.saat;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -64,7 +65,7 @@ public class SaatBkDetail extends AppCompatActivity {
                                 "\n"+
                                 "\n"+"*"+nama+"*"+
                                 "\n"+
-                                "\nDeskripsi : "+detail.split("\\.")[0].trim()+"....."+
+                                "\nDeskripsi : \n"+detail.split("\\.")[0].trim()+"....."+
                                 "\n"+
                                 "Selengkapnya ada di:"+
                                 "\n"+

@@ -10,7 +10,8 @@ public class SaatBk {
         this.setDetailSaatBk(detailSaatBk);
     }
     private int gambar;
-    private String namaSaatBk, detailSaatBk;
+    private String namaSaatBk;
+    private String detailSaatBk;
 
     public int getGambar() {
         return gambar;

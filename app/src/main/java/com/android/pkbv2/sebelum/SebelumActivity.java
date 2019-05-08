@@ -24,7 +24,7 @@ public class SebelumActivity extends AppCompatActivity {
     ArrayList<Sebelum> list = new ArrayList<Sebelum>();
 
     //inisialisasi list gambar dari resource mipmap
-    int[] gambar = {R.drawable.berdoa, R.drawable.ban, R.drawable.cekmesin, R.drawable.fisik,
+    int[] gambar = {R.drawable.berdoa, R.drawable.ban, R.drawable.bensin, R.drawable.cekmesin, R.drawable.fisik,
             R.drawable.lampu,R.drawable.map};
 
     //inisialisasi ArrayString namaSbl dan detailSbl
@@ -77,8 +77,6 @@ public class SebelumActivity extends AppCompatActivity {
     public void onBackPressed() {
         finish();
     }
-
-
 }
 
 

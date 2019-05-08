@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Html;
+import android.text.Spannable;
+import android.text.Spanned;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -21,13 +24,14 @@ public class SaatBkActivity extends AppCompatActivity {
     RecyclerView.LayoutManager layoutManager;
 
     //inisialisasi ArrayList dari SaatBk.java
-    ArrayList<SaatBk> list = new ArrayList<SaatBk>();
+    ArrayList<SaatBk> list = new ArrayList<>();
 
     //inisialisasi list gambar dari resource mipmap
-    int[] gambar = {R.drawable.rambu, R.drawable.pengguna, R.drawable.istirahat};
+    int[] gambar = {R.drawable.pengguna, R.drawable.istirahat, R.drawable.rambu,  R.drawable.seatbelt, R.drawable.speedometer};
 
     //inisialisasi ArrayString namaSaatBk dan detailSaatBk
-    String[] namaSaatBk, detailSaatBk;
+    String[] namaSaatBk;
+    String[] detailSaatBk;
 
     ImageView btn_back;
 
@@ -42,6 +46,7 @@ public class SaatBkActivity extends AppCompatActivity {
         //menampilkan array berdasarkan strings.xml yang bernama detailSaatBk
         detailSaatBk= getResources().getStringArray(R.array.detailSaatBk);
 
+
         //kondisi perulangan untuk namaSaatBk pada Persiapan dimana list akan terbentuk secara berulang
         //dari array yang telah diinisialisasikan diatas
         int count = 0;
@@ -52,7 +57,7 @@ public class SaatBkActivity extends AppCompatActivity {
             list.add(saatbk);
         }
         //inisialisasi id recycler_view pada activity_main.xml
-        recyclerView = (RecyclerView)findViewById(R.id.recycler_view);
+        recyclerView = findViewById(R.id.recycler_view);
         //layoutManager mengatur bentuk tampilan seperti grid pada activity ini dengan kolom sebanyak 2
         layoutManager = new GridLayoutManager(this,2);
         //recyclerView men set Layout berdasarkan variabel layoutManager yaitu GridLayoutManager
