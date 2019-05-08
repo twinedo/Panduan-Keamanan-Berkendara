@@ -2,6 +2,7 @@ package com.android.pkbv2.sebelum;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
@@ -17,6 +18,7 @@ public class SebelumDetail extends AppCompatActivity {
     ImageView gambar, share, back;
     String nama, detail;
     int image_link;
+    ConstraintLayout layoutdetail;
 
     //membuat sebuah tampilan dengan konten layout activity_sebelum_detail.xml
     @Override
@@ -38,6 +40,7 @@ public class SebelumDetail extends AppCompatActivity {
         DetailSbl = findViewById(R.id.detail);
         share = findViewById(R.id.share);
         back = findViewById(R.id.back);
+        layoutdetail = findViewById(R.id.layoutdetail);
 
         //men set Gambar sebagai image_link
         gambar.setImageResource(image_link);
